@@ -1,0 +1,82 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 4.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.kotak a img{
+	height: 30px;
+	width: 30px;
+	margin-top: 5px;
+}
+.kecilkecil{
+	float: left;
+	width: 20%;
+}
+.kecilkecil2{
+	float: left;
+	width: 35%;
+}
+.tabelorder tr td{
+	margin-right: 20px;
+}
+.not-allowed{
+	cursor: not-allowed;
+}
+.btn.modal-trigger{
+	display:block; 
+	width:100%; 
+	padding:30px;
+	line-height:0px
+}
+.pilihdata:hover{
+	cursor: pointer;
+}
+.field-icon {
+	float: right;
+	margin-left: -25px;
+	margin-top: -25px;
+	position: relative;
+	z-index: 2;
+}
+#warnani {
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+} 
+@-webkit-keyframes Gradient{
+	0%{
+		background-position:0 50%
+		}50%{
+			background-position:100% 50%
+			}100%{
+				background-position:0 50%
+			}
+		}
+		@-moz-keyframes Gradient{
+			0%{
+				background-position:0 50%
+			}
+			50%{background-position:100% 50%
+			}
+			100%{
+				background-position:0 50%}
+			}
+			@keyframes Gradient{
+				0%{
+					background-position:0 50%
+				}
+				50%{
+					background-position:100% 50%
+				}
+				100%{
+					background-position:0 50%
+				}
+			}
